@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+--primary-color: #d9d9d9;
+--second-color: #363839;
+--terciary-color: #484d50;
+--black-color: #000000;
+--white-color: #ffffff;
+--a-color: #3d0000;
+}
+*{
+    font-family: "Roboto",sans-serif;
+}
+.dinamics{
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    margin: 40px;
+    flex-direction: row;
+    gap: 50px;
+    border: 1px solid var(--a-color);
+    height: 80px;
+
+}
+.dinamics a{
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--a-color);
+}
+.dinamics .dinamic_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border: 1px solid var(--a-color);
+}
+.grid_products{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    background-color: var(--a-color);
+    margin: 40px 0;
+}
+.box{
+    width: 320px;
+    height: 386px;
+    border-radius: 30px;
+    background-color: #cacaca;
+}
+.box h4{
+    padding-left: 15px;
+}
+.box .capsule{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.box .texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.box .texto h1{
+    font-size: 36px;
+}
+.box .texto .icon{
+    background-color: #69d100;
+    border-radius: 30px;
+    cursor: pointer;
+}
