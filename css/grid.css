@@ -41,7 +41,7 @@
     padding-left: 40px;
     padding-right: 40px;
     justify-content: space-between;
-    background-color: var(--a-color);
+    background-color: var(--primary-color);
     margin: 40px 0;
 }
 .box{

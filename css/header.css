@@ -12,6 +12,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--primary-color);
+}
 header{
     height: 100px;
     width: 100%;
